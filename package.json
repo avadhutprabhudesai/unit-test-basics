@@ -1,0 +1,27 @@
+{
+  "name": "unit-test-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --globals",
+    "test:watch": "vitest --watch --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avadhutprabhudesai/unit-test-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avadhutprabhudesai/unit-test-basics/issues"
+  },
+  "homepage": "https://github.com/avadhutprabhudesai/unit-test-basics#readme",
+  "dependencies": {
+    "vite": "^2.9.13"
+  },
+  "devDependencies": {
+    "vitest": "^0.16.0"
+  }
+}
