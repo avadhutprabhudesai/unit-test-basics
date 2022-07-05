@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest --globals",
+    "test": "vitest --globals --coverage --run",
     "test:watch": "vitest --watch --globals"
   },
   "repository": {
@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/avadhutprabhudesai/unit-test-basics#readme",
   "dependencies": {
+    "@types/jest": "^28.1.4",
     "vite": "^2.9.13"
   },
   "devDependencies": {
+    "c8": "^7.11.3",
     "vitest": "^0.16.0"
   }
 }
