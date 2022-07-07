@@ -32,6 +32,8 @@
     "babel-preset-env": "^1.7.0",
     "c8": "^7.11.3",
     "jest": "^28.1.2",
+    "jest-extended": "^2.0.0",
+    "jest-in-case": "^1.0.2",
     "vitest": "^0.16.0"
   },
   "jest": {
